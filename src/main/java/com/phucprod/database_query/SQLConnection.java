@@ -4,11 +4,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 public class SQLConnection {
-    private static final String host = "localhost";
+    private static final String host = "happyhouse.cyq2eokky8vf.ap-southeast-1.rds.amazonaws.com";
     private static final String port = "3306";
-    private static final String database = "company";
-    private static final String username = "root";
-    private static final String password = "admin";
+    private static final String database = "happyhouse";
+    private static final String username = "happyhouse";
+    private static final String password = "happy123";
     public static Connection getConnection() throws ClassNotFoundException {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
